@@ -27,7 +27,6 @@ print("Press 1 to choice the scissors, 2 for the rock and 3 for the paper")
 class GAME:
     
     def __init__(self):
-        
         self.choice_player = (self)
         self.Ia_random = (self)
         self.Result = (self)
