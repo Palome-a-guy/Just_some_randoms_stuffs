@@ -39,7 +39,6 @@ class GAME:
     def player_choice_function(self):
         self.choice_player = input("Put Your sign here please : ")
 
-   
     # The whole fight
     def Fight(self):
         global text
@@ -104,15 +103,17 @@ class GAME:
         if self.Result == "Equality":
             print("You made a tie")
             print("You need to replay")
-        
+
+
+obj = GAME()        
 
 while Game == True:
-    GAME.player_choice_function()
-    GAME.dice()
-    GAME.Fight()
-    GAME.Text()
-    
+    obj.player_choice_function()
+    obj.dice()
+    obj.Fight()
+    obj.Text()
     time.sleep(2)
+
 
 # New Highscore
 if Highscore < score:
@@ -121,19 +122,17 @@ if Highscore < score:
     f.close
 
 # say the score
-print("Your score is " + score)
-time.sleep(2)
+print("Your score is " + str(score))
+time.sleep(1)
 
 # Highscore
 f = open("Highscore.txt", "r")
 Highscore = f.read()
 f.close()
 
-print("And your Highscore is ")
-time.sleep(1)
-print(str(Highscore))
+print("And your Highscore is " + str(Highscore))
 
-time.sleep(2)
+time.sleep(1)
 replay = input("Wanna replay ? (Y/N)")
 
 if replay == "Y":
