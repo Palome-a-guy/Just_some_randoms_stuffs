@@ -131,14 +131,9 @@ f.close()
 
 print("And your Highscore is ")
 time.sleep(1)
-print("3")
-time.sleep(1)
-print("2")
-time.sleep(1)
-print("1")
-time.sleep(1)
 print(str(Highscore))
 
+time.sleep(2)
 replay = input("Wanna replay ? (Y/N)")
 
 if replay == "Y":
