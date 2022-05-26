@@ -11,9 +11,11 @@ if not os.path.exists("Highscore.txt"):
     f.write("0")
     f.close()
 
+
 f = open("Highscore.txt", "r")
 Highscore = f.read()
 f.close()
+
 
 print("")
 print("Your Highscore is " + Highscore)
@@ -24,6 +26,7 @@ print("")
 Game = True
 score = 0
 text = ()
+error_choice = False
 
 print("Press 1 to choice the scissors, 2 for the rock and 3 for the paper")
 print("")
@@ -34,15 +37,20 @@ class GAME:
         self.choice_player = (self)
         self.Ia_random = (self)
         self.Result = (self)
-        
+
     # For the randomness of the IA    
     def dice(self):
         self.Ia_random = random.randint(1, 4)
      
     # Choice of the player   
     def player_choice_function(self):
+        global error_choice
         print("")
-        self.choice_player = int(input("Put Your sign here please : "))
+        try:
+            self.choice_player = int(input("Put Your sign here please : "))
+        except: 
+            print("")
+            self.choice_player = int(input("Veuillez entrez une valleur numérique entre 1 et 3 : "))
             
     # The whole fight
     def Fight(self):
@@ -99,7 +107,7 @@ class GAME:
         print("")
         
         if self.Result == "Lose":
-            print("You lose," + text)
+            print("You lose, " + text)
             Game = False
             
         if self.Result == "Win":
