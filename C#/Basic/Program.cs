@@ -6,7 +6,9 @@ namespace Basic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double num = 15.89;
+            num = Convert.ToInt16(num);
+            Console.WriteLine(num);
         }
     }
-}
+} 
