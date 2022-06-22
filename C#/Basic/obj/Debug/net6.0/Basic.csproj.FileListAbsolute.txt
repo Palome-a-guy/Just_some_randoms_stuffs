@@ -1,0 +1,15 @@
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\bin\Debug\net6.0\Basic.exe
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\bin\Debug\net6.0\Basic.deps.json
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\bin\Debug\net6.0\Basic.runtimeconfig.json
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\bin\Debug\net6.0\Basic.dll
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\bin\Debug\net6.0\Basic.pdb
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.csproj.AssemblyReference.cache
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.AssemblyInfoInputs.cache
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.AssemblyInfo.cs
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.csproj.CoreCompileInputs.cache
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.dll
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\refint\Basic.dll
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.pdb
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\Basic.genruntimeconfig.cache
+C:\Users\flo-v\Documents\Github\Just_some_randoms_stuffs\C#\Basic\obj\Debug\net6.0\ref\Basic.dll

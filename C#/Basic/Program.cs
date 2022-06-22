@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Main
+namespace Basic
 {
     internal class Program
     {
