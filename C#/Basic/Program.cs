@@ -6,9 +6,19 @@ namespace Basic
     {
         static void Main(string[] args)
         {
-            double num = 15.89;
-            num = Convert.ToInt16(num);
-            Console.WriteLine(num);
+            Console.WriteLine("Number :");
+            string? num = Console.ReadLine();
+
+            if (num == "1")
+            {
+                bool test = true;
+
+                if (test == true)
+                {
+                    string name = "Wow tu as eu le bon nombre (test en utilisant bool)";
+                    Console.WriteLine(name);
+                }
+            } 
         }
     }
 } 
