@@ -6,19 +6,13 @@ namespace Basic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Number :");
-            string? num = Console.ReadLine();
-
-            if (num == "1")
+            int i = 8;
+            do 
             {
-                bool test = true;
-
-                if (test == true)
-                {
-                    string name = "Wow tu as eu le bon nombre (test en utilisant bool)";
-                    Console.WriteLine(name);
-                }
-            } 
+            Console.WriteLine(i);
+            i++;
+            }
+            while (i < 5);
         }
     }
 } 
