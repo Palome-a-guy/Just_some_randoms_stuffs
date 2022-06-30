@@ -20,6 +20,7 @@ if not os.path.exists("Highscore.txt") or not os.path.exists("unlock.txt") :
     f.close
 
 
+# puts .txt values into variables (highscore and if you unlock the upgrade)
 f = open("Highscore.txt", "r")
 Highscore = f.read()
 f.close()
@@ -27,6 +28,7 @@ f.close()
 f = open("unlock.txt", "r")
 first_unlock = f.read()
 f.close()
+
 
 if first_unlock == "False":
     first_unlock = False
@@ -219,21 +221,25 @@ class GAME:
             print("You need to replay")
 
 obj = GAME()
-       
+
+# the "main" function
+      
 def da_game():
     while Game:
         obj.player_choice_function()
         obj.dice()
-        obj.Fight()
-        obj.Text()
+        obj.fight()
+        obj.text()
         time.sleep(2)
         
         obj.Result = ()
-        obj.Text()
+        obj.text()
     
 Game1 = True
 
-def loop_1():
+# the game loop
+
+def loop():
     global Game1, Game, score, Highscore, first_unlock, unlock, use_unlock, used
     while Game1:
         while Game:   
@@ -337,4 +343,4 @@ def loop_1():
                 sys.exit()
                 
 
-loop_1()
+loop()
