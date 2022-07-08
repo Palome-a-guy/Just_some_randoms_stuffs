@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\flo-v\\.nuget\\packages\\": {}
+    "/home/Ash/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flo-v\\Documents\\Github\\Just_some_randoms_stuffs\\C#\\Basic\\Basic.csproj",
+      "projectUniqueName": "/home/Ash/Documents/Just_some_randoms_stuffs/C#/Basic/Basic.csproj",
       "projectName": "Basic",
-      "projectPath": "C:\\Users\\flo-v\\Documents\\Github\\Just_some_randoms_stuffs\\C#\\Basic\\Basic.csproj",
-      "packagesPath": "C:\\Users\\flo-v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flo-v\\Documents\\Github\\Just_some_randoms_stuffs\\C#\\Basic\\obj\\",
+      "projectPath": "/home/Ash/Documents/Just_some_randoms_stuffs/C#/Basic/Basic.csproj",
+      "packagesPath": "/home/Ash/.nuget/packages/",
+      "outputPath": "/home/Ash/Documents/Just_some_randoms_stuffs/C#/Basic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flo-v\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/Ash/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
       }
     }
   }
